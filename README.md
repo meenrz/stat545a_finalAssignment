@@ -6,6 +6,8 @@ This is the repository for the final assignment for STAT545A. For this assignmen
 
 - Input data: [OECD_incomeAndPovertyData](https://github.com/parkm87/stat545a_finalAssignment/blob/master/OECD_incomeAndPovertyData)
 - Scripts: [01_importData.R](https://github.com/parkm87/stat545a_finalAssignment/blob/master/01_importData.R), [02_exploreAnalyzeGraph.R](https://github.com/parkm87/stat545a_finalAssignment/blob/master/02_exploreAnalyzeGraph.R)
+- Make-life script: [Makefile.R](https://github.com/parkm87/stat545a_finalAssignment/blob/master/Makefile.R)
+
 
 
 
