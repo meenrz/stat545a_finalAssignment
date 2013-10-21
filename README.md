@@ -1,4 +1,4 @@
-stat545a_finalAssignment
+STAT545A: Final Assignment
 ========================
 *Mina Park*
 
