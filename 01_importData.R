@@ -1,6 +1,7 @@
 data <- read.csv("OECD_incomeAndPovertyData.csv")
 str(data)
 
+# only want Canadian data
 dataCanada <- subset(data, subset=Country == "Canada", 
                  select=c(Age.group, Measure, Year, Value))
 str(dataCanada)
@@ -12,4 +13,5 @@ str(dataCanadaTotalPop)
 head(dataCanadaTotalPop, 10)
 tail(dataCanadaTotalPop, 10)
 
+# write data to file
 write.table(dataCanadaTotalPop, "OECD_CanadaData.txt", sep="\t", quote=FALSE)
