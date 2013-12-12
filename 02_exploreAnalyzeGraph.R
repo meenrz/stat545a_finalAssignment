@@ -27,8 +27,6 @@ giniPlot <- xyplot(giniIndex~year, giniData, group=Measure,
        xlab="Year",
        ylab="Gini Index")
 giniPlot
-pdf("giniPlot.pdf")
-dev.off()
 dev.print(pdf, "giniPlot.pdf")
 
 ###################################### POVERTY
@@ -58,8 +56,6 @@ povPlot <- xyplot(povertyRate~year, povData, group=Measure,
        xlab="Year",
        ylab="Poverty Rate")
 povPlot
-pdf("povPlot.pdf")
-dev.off()
 dev.print(pdf, "povPlot.pdf")
 
 povPlotPanel <- xyplot(povertyRate~year|Measure, povData,
@@ -69,6 +65,4 @@ povPlotPanel <- xyplot(povertyRate~year|Measure, povData,
                        xlab="Year",
                        ylab="Poverty Rate")
 povPlotPanel
-pdf("povPlotPanel.pdf")
-dev.off()
 dev.print(pdf, "povPlotPanel.pdf")
