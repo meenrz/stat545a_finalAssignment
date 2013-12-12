@@ -1,4 +1,4 @@
-data <- read.csv("OECD_incomeAndPovertyData.csv")
+data <- read.delim("OECD_incomeAndPovertyData.csv")
 str(data)
 
 # only want Canadian data
